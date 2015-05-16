@@ -34,7 +34,6 @@ html, body {
 
   /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
      hence the bootstrap's container won't be aligned to the center anymore.
-
      Therefore, we should use the following declarations to get it centered again */
          -webkit-box-pack : center;
             -moz-box-pack : center;
@@ -64,6 +63,7 @@ h2 {
 	color: #113c5e;
 	border-color: #113c5e;
 }
-.container {
+#content {
 	padding: 20px;
+	text-align: center;
 }
