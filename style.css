@@ -64,3 +64,6 @@ h2 {
 	color: #113c5e;
 	border-color: #113c5e;
 }
+.container {
+	padding: 20px;
+}
