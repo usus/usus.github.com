@@ -56,8 +56,16 @@ h2 {
 #logo {
 	height: 150px;
 }
+@media(max-width:480px){
+	h1 {
+		font-size: 300%;
+	}
+	#logo {
+		height: 120px;
+	}
+}
 #buttons {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 .btn, .btn:hover {
 	color: #113c5e;
@@ -66,4 +74,7 @@ h2 {
 #content {
 	padding: 20px;
 	text-align: center;
+}
+#buttons li {
+	margin-top: 10px;
 }
